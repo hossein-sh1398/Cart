@@ -1,0 +1,24 @@
+{
+    "name": "hossein_package/cart",
+    "authors": [
+        {
+            "name": "hossein shirinegad",
+            "email": "hosseinshirinegad98@gmail.com"
+        }
+    ],
+    "autoload": {
+    	"psr-4": {
+    		"Hossein_package\\Cart\\": "src/"	
+    	}
+    },
+    "require": {
+    	"illuminate/support": "~7"
+    },
+    "extra": {
+        "Laravel": {
+            "providers": [
+                "Hossein_package\\Cart\\CartServiceProvider"
+            ]
+        }
+    }
+}
